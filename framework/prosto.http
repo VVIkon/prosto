@@ -1,0 +1,21 @@
+###
+GET http://prosto.local/about
+Accept: application/json
+Content-Type: application/json
+###
+
+###
+POST http://prosto.local/about/save
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+  "id": 2,
+  "name":"Вася",
+  "lastName":"Соскин",
+  "age":45,
+  "height":180
+}
+
+###
