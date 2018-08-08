@@ -1,0 +1,1126 @@
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-09T122008.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-09T121859.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-09T121538.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-09T121412.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-09T121356.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-09T120820.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-09T120527.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-08T115646.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-08T115544.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-08T115501.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-08T115351.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-08T113957.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+<> 2018-08-08T083624.200.html
+
+###
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 5, "to": 6, "ddate":"03.01.2018"},
+  { "from": 6, "to": 7, "ddate":"04.01.2018"},
+  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+]
+}
+
+###
+

@@ -1,16 +1,35 @@
 <?php
+namespace framework;
+use framework\AbstractRequest;
+use framework\HandelMethodGet;
+use framework\HandelMethodPost;
+use framework\OperController;
 
+
+//require_once(dirname(__FILE__).'/AbstractRequest.php');
+//
+//require_once(dirname(__FILE__) . '/HandelMethodGet.php');
+//require_once(dirname(__FILE__) . '/HandelMethodPost.php');
+
+/**
+ *  @property  AbstractRequest $Method
+ */
 
 class FrontController
 {
     private $routes;
     private $request;
     private $requestParams = null;
+    private $Method;
 
     public function __construct()
     {
         $this->routes = require('router.php');
         $this->request = $_SERVER;
+    }
+
+    private function setMethod(){
+        $this->Method = AbstractRequest::getMethod($this->request['REQUEST_METHOD']);
     }
 
     /**
@@ -19,25 +38,11 @@ class FrontController
      */
     public function getParams()
     {
-
         $params = null;
-        $method = $this->request['REQUEST_METHOD'];
-        if ($method == 'GET') {
-            $params = $this->request['REQUEST_URI'];
-            if (isset($_GET)){
-                $this->requestParams = $_GET;
-            }
-        }elseif ($method == 'POST'){
-            $params = $this->request['REQUEST_URI'];
-            // Делать ТАК! Для API с JSON $_POST не заполняется!!!!!!
-            $rest_json = file_get_contents("php://input");
-            $_POST = json_decode($rest_json, true);
-
-            if (isset($_POST)){
-                $this->requestParams = $_POST;
-            }
-        }
-
+        $this->setMethod();
+        $this->Method->setParamesFromRequest($this->request);
+        $this->requestParams = $this->Method->getParams();
+        $params = $this->Method->getURL();
         return $params;
     }
 
@@ -46,7 +51,7 @@ class FrontController
      * @param $params
      * @return array|string
      */
-    public function getControllerByRoute($params)
+    private function getControllerByRoute($params)
     {
 
         foreach ($this->routes as $key=>$val){
@@ -54,7 +59,7 @@ class FrontController
                 return explode('->', $val);
             }
         }
-        return '';
+        return null;
     }
 
     /**
@@ -62,18 +67,27 @@ class FrontController
      * @param $arr
      * @return null
      */
-    public function makeController($arr)
+    public function makeController($params)
     {
         $responce = null;
+        $arr = $this->getControllerByRoute($params);
+        if (is_null($arr)){
+            return "Error: Путь {$params} не найден";
+        }
+
         if (isset($arr[0]) && isset($arr[1])){
-            $controller = $arr[0];
+            $controller = "framework\\".$arr[0];
             $method = 'action'.ucfirst($arr[1]);
 
             if (class_exists($controller)){
                 $Controller = new $controller();
                 if (method_exists($Controller, $method)){
                     $responce = $Controller->$method($this->requestParams);
+                }else{
+                    $responce = "Error: Метод {$method} не найден";
                 }
+            }else{
+                $responce = "Error: Контроллер {$controller} не найден";
             }
         }
         return $responce;

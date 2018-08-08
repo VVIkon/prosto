@@ -1,5 +1,5 @@
 <?php
-
+//namespace framework;
 
 class AboutController
 {
@@ -20,4 +20,6 @@ class AboutController
         return $out;
 
     }
+
+
 }
