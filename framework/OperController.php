@@ -1,10 +1,11 @@
 <?php
 namespace framework;
+use framework\Controller;
 use framework\FlyRoute;
 
 //require_once('FlyRoute.php');
 
-class OperController
+class OperController extends Controller
 {
     /** сортировка
      * "id": [12,5,3,11,4,9,1,10,2,6,8,7]
@@ -50,10 +51,10 @@ class OperController
     {
         $FR = new FlyRoute();
         $FR->setParams($params);
-        //$segments = $FR->getSegments();
         $FR->makeRoutes();
-        $routes = $FR->getRoutes();
-
-        return $routes;
+        $routes = $FR->showRoute();
+//        $routes = $FR->getRoutes();
+        $aa = $this->renderView('first',['routes'=>$routes]);
+       return $aa;
     }
 }

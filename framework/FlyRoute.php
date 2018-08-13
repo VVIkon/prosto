@@ -2,8 +2,10 @@
 namespace framework;
 use Exception;
 
+
 class FlyRoute
 {
+
 
     protected $start;
     protected $finish;
@@ -49,6 +51,7 @@ class FlyRoute
         if (empty($this->segments)){
             return $retArr;
         }
+        //TODO: Проверка даты: в следующем сегменте она д.б. больше. Иначе это не маршрут
         try {
             foreach ($this->segments as $segment) {
                 $from = $segment->getFrom();
@@ -64,20 +67,28 @@ class FlyRoute
         }
     }
 
-    private function router($from)
+    private function router($from, $homeWay)
     {
-
         $arrSegments = $this->findSegment($from);
-
         foreach ($arrSegments as $key => $segment){
+            $this->routeIndex +=$key;
+            $segment->setHomeWay($this->routeIndex, $homeWay );
+            if (isset($homeWay)){
+                $parentHomeWays = $homeWay->getHomeWay($this->routeIndex);
+                foreach ($parentHomeWays as $homeW) {
+                    $segment->setHomeWay($this->routeIndex, $homeW);
+                }
+            }
             $to = $segment->getTo();
             if ($to  != $this->finish){
-                $this->routeIndex +=$key;
-                $this->router($to);
-            }
+                $this->router($to,$segment);
+            }else {
                 $this->routes[$this->routeIndex][] = $segment;
-
-//            array_unshift($this->routes[$this->routeIndex][], $segment);
+                $hWs = $segment->getHomeWay($this->routeIndex);
+                foreach ($hWs as $hw){
+                    $this->routes[$this->routeIndex][] = $hw;
+                }
+            }
         }
     }
 
@@ -85,7 +96,7 @@ class FlyRoute
     {
         $currFrom = $this->start;
         $this->routeIndex = 0;
-        $this->router($currFrom);
+        $this->router($currFrom,null);
         foreach ($this->routes as &$route){
             $route = array_reverse($route);
         }
@@ -95,6 +106,22 @@ class FlyRoute
     public function getRoutes()
     {
        return $this->routes;
+    }
+
+    public function showRoute()
+    {
+        $out = [];
+        foreach ($this->routes as $key=>$route){
+            foreach ($route as $key2=>$segment){
+                $out[$key][$key2]= [
+                    'from'=> $segment->getFrom(),
+                    'to' => $segment->getTo(),
+                    'ddate' => $segment->getDdate()->format("d.m.Y")
+                ];
+            }
+        }
+        return $out;
+//        return json_encode($out);
     }
 
 }

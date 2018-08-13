@@ -1,12 +1,6 @@
 <?php
 namespace framework;
 use framework\FrontController;
-//use router;
-
-//require_once(dirname(__FILE__).'/FrontController.php');
-//require_once(dirname(__FILE__).'/AboutController.php');
-//require_once(dirname(__FILE__).'/OperController.php');
-
 
 
 class VI

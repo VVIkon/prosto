@@ -5,12 +5,6 @@ use framework\HandelMethodGet;
 use framework\HandelMethodPost;
 use framework\OperController;
 
-
-//require_once(dirname(__FILE__).'/AbstractRequest.php');
-//
-//require_once(dirname(__FILE__) . '/HandelMethodGet.php');
-//require_once(dirname(__FILE__) . '/HandelMethodPost.php');
-
 /**
  *  @property  AbstractRequest $Method
  */

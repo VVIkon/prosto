@@ -42,12 +42,39 @@ Cache-Control: no-cache
 "segments":
 [
   { "from": 1, "to": 2, "ddate":"01.01.2018"},
-  { "from": 2, "to": 3, "ddate":"02.01.2018"},
-  { "from": 3, "to": 4, "ddate":"03.01.2018"},
   { "from": 1, "to": 5, "ddate":"02.01.2018"},
+  { "from": 1, "to": 8, "ddate":"02.01.2018"},
+  { "from": 1, "to": 4, "ddate":"05.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 2, "to": 9, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 3, "to": 12, "ddate":"03.01.2018"},
+  { "from": 9, "to": 4, "ddate":"03.01.2018"},
+  { "from": 12, "to": 4, "ddate":"03.01.2018"},
   { "from": 5, "to": 6, "ddate":"03.01.2018"},
   { "from": 6, "to": 7, "ddate":"04.01.2018"},
-  { "from": 7, "to": 4, "ddate":"05.01.2018"}
+  { "from": 7, "to": 4, "ddate":"05.01.2018"},
+  { "from": 8, "to": 7, "ddate":"03.01.2018"}
+]
+}
+###
+#####
+
+POST http://prosto.local/oper/chain
+Host: prosto.local
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"start": 1,
+"finish": 4,
+"segments":
+[
+  { "from": 1, "to": 2, "ddate":"01.01.2018"},
+  { "from": 2, "to": 3, "ddate":"02.01.2018"},
+  { "from": 3, "to": 4, "ddate":"03.01.2018"},
+  { "from": 3, "to": 12, "ddate":"03.01.2018"},
+  { "from": 12, "to": 4, "ddate":"03.01.2018"}
 ]
 }
 ###
